@@ -9,86 +9,107 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="navBar">
-				<img src="img/ecomunidad-logo.png" alt="Logo">
-				<ul>
-					<li>Nosotros</li>
-					<li>Servicios</li>
-					<li>Proyectos</li>
-					<li>Equipos</li>
-					<li>Blogs</li>
-					<li>Siguenos</li>
-				</ul>
+			<div class="navBar row">
+					<div class="col">
+						<img src="img/ecomunidad-logo.png" alt="Logo">
+					</div>
+					<div class="col d-flex align-items-center">
+						<nav class="navbar navbar-expand-lg navbar-light bg-light">
+							<div class="container-fluid">
+							  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							  </button>
+							  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+								<div class="navbar-nav">
+								  <a class="nav-link" href="#Nosotros">Nosotros</a>
+								  <a class="nav-link" href="#Servicios">Servicios</a>
+								  <a class="nav-link" href="#Proyectos">Proyectos</a>
+								  <a class="nav-link" href="#Equipos">Equipos</a>
+								  <a class="nav-link" href="#Blogs">Blogs</a>
+								  <a class="nav-link" href="#Siguenos">Siguenos</a>
+								</div>
+							  </div>
+							</div>
+						  </nav>
+					</div>
 			</div>
 			<div class="header">
-				<img src="img/semilla.jpg" alt="Semilla">
+				<img class="mx-auto d-block" src="img/semilla.jpg" alt="Semilla">
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem id eaque enim? Facilis temporibus, tempora reiciendis ullam nulla tempore architecto quia aliquam ipsa corrupti porro in error, minima quisquam.</p>
 			</div>
-			<div class="nosotros">
-				<div class="mision">
-					<img src="img/iconos/mision/mision.png" alt="Mision">
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias rerum blanditiis mollitia consequatur ad libero molestiae repudiandae saepe dolores obcaecati.</p>
+			<div id="Nosotros" class="nosotros row gx-5">
+				<div class="mision col justify-content-center">
+					<img class="mx-auto d-block" src="img/iconos/mision/mision.png" alt="Mision">
+					<h2 class="text-center">Mision</h2>
+					<p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias rerum blanditiis mollitia consequatur ad libero molestiae repudiandae saepe dolores obcaecati.</p>
 				</div>
-				<div class="vision">
-					<img src="img/iconos/mision/vision.png" alt="Vision">
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea eveniet dicta et possimus, delectus quae adipisci iure. Dolorum in veniam commodi! Quod, molestiae?</p>
+				<div class="vision col">
+					<img class="mx-auto d-block" src="img/iconos/mision/vision.png" alt="Vision">
+					<h2 class="text-center">Vision</h2>
+					<p class="text-center lh-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea eveniet dicta et possimus, delectus quae adipisci iure. Dolorum in veniam commodi! Quod, molestiae?</p>
 				</div>
-				<div class="metodologia">
-					<div class="imgMetodologia">
-						<img src="img/metodo.JPG" alt="Metodologia">
-					</div>
-					<div class="textMetodologia">
-						<img src="img/fondo.jpg" alt="fondo">
-						<img src="img/iconos/metodologia-icon.png" alt="Metodologia icono">
-						<h1>Metodología</h1>
-						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, corrupti veniam molestiae, perspiciatis asperiores sequi perferendis tenetur, numquam doloremque voluptatum officia cupiditate sit molestias quam dicta accusamus blanditiis vero quo. Aspernatur eaque facilis praesentium dignissimos!</p>
+				<div class="row">
+					<div class="metodologia col">
+						<div class="imgMetodologia">
+							<img src="img/metodo.JPG" alt="Metodologia">
+						</div>
+						<div class="textMetodologia">
+							<img src="img/fondo.jpg" alt="fondo">
+							<img src="img/iconos/metodologia-icon.png" alt="Metodologia icono">
+							<h1>Metodología</h1>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, corrupti veniam molestiae, perspiciatis asperiores sequi perferendis tenetur, numquam doloremque voluptatum officia cupiditate sit molestias quam dicta accusamus blanditiis vero quo. Aspernatur eaque facilis praesentium dignissimos!</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="servicios">
+			<div id="Servicios" class="servicios">
 				<div class="textServicios">
-					<h1>Servicios</h1>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quas ex perspiciatis, optio delectus neque dolorum nostrum et. Aperiam necessitatibus nisi et? Natus illo provident eos debitis. Modi, aperiam vel.</p>
+					<h1 class="text-center">Servicios</h1>
+					<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quas ex perspiciatis, optio delectus neque dolorum nostrum et. Aperiam necessitatibus nisi et? Natus illo provident eos debitis. Modi, aperiam vel.</p>
 				</div>
-				<div class="servEducacion">
-					<img src="img/iconos/servicios-icon/educacion.png" alt="Educación">
-					<h2>Educación para el Desarrollo Sostenible</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
-				</div>
-				<div class="servClima">
-					<img src="img/iconos/servicios-icon/mitigacion.png" alt="Mitigación">
-					<h2>Mitigación Cambio Climatico</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
-				</div>
-				<div class="servBienestar">
-					<img src="img/iconos/servicios-icon/bienestar.png" alt="Bienestar">
-					<h2>Bienestar Ocupacional</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
-				</div>
-				<div class="servConsultoria">
-					<img src="img/iconos/servicios-icon/seguridad-icon.png" alt="Seguridad">
-					<h2>Consultorías en Seguridad Industrial y Medio Ambiente</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
-				</div>
-				<div class="servAgua">
-					<img src="img/iconos/servicios-icon/manejo-de-agua.png" alt="Agua">
-					<h2>Manejo de Aguas</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
-				</div>
-				<div class="servAgricultura">
-					<img src="img/iconos/servicios-icon/agricultura-icon.png" alt="Agricultura">
-					<h2>Agricultura</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
-				</div>
+					<div class="row">
+						<div class="servEducacion col">
+							<img class="mx-auto d-block" src="img/iconos/servicios-icon/educacion.png" alt="Educación">
+							<h2 class="text-center">Educación para el Desarrollo Sostenible</h2>
+							<p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
+						</div>
+						<div class="servClima col">
+							<img class="mx-auto d-block" src="img/iconos/servicios-icon/mitigacion.png" alt="Mitigación">
+							<h2 class="text-center">Mitigación Cambio Climatico</h2>
+							<p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
+						</div>
+						<div class="servBienestar col">
+							<img class="mx-auto d-block" src="img/iconos/servicios-icon/bienestar.png" alt="Bienestar">
+							<h2 class="text-center">Bienestar Ocupacional</h2>
+							<p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="servConsultoria col">
+							<img class="mx-auto d-block" src="img/iconos/servicios-icon/seguridad-icon.png" alt="Seguridad">
+							<h2 class="text-center">Consultorías en Seguridad Industrial y Medio Ambiente</h2>
+							<p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
+						</div>
+						<div class="servAgua col">
+							<img class="mx-auto d-block" src="img/iconos/servicios-icon/manejo-de-agua.png" alt="Agua">
+							<h2 class="text-center">Manejo de Aguas</h2>
+							<p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
+						</div>
+						<div class="servAgricultura col">
+							<img class="mx-auto d-block" src="img/iconos/servicios-icon/agricultura-icon.png" alt="Agricultura">
+							<h2 class="text-center">Agricultura</h2>
+							<p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi impedit, maiores blanditiis excepturi quaerat voluptates suscipit dolorum deleniti ducimus!</p>
+						</div>
+					</div>
 			</div>
-			<div class="proyectos">
+			<div id="Proyectos" class="proyectos">
 				<img src="img/fondo2.jpg" alt="Fondo">
-				<h1>Proyectos</h1>
+				<h1 class="text-center">Proyectos</h1>
 				<div class="proyectoUno">
 					<img src="img/fotos/img-0352.JPG" alt="Niños">
-					<h1>Nombre del Proyecto 1</h1>
-					<h2>Nombre del Distrito</h2>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quia quam quae culpa molestias architecto repellendus beatae cumque impedit saepe quasi, eaque praesentium consequatur, adipisci nemo assumenda incidunt nisi suscipit?</p>
+					<h1 class="text-center">Nombre del Proyecto 1</h1>
+					<h2 class="text-center">Nombre del Distrito</h2>
+					<p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quia quam quae culpa molestias architecto repellendus beatae cumque impedit saepe quasi, eaque praesentium consequatur, adipisci nemo assumenda incidunt nisi suscipit?</p>
 				</div>
 				<div class="proyectoDos">
 					<img src="img/fotos/img-9246.jpg" alt="Tren">
@@ -97,78 +118,129 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus veritatis ratione officia itaque, impedit cupiditate autem labore minima aspernatur, animi et odio similique, quo modi voluptates atque quasi neque! Est!</p>
 				</div>
 			</div>
-			<div class="equipo">
-				<h2>Equipo</h2>
-				<div class="tipoUno">
-					<img src="img/fotos/equipo2.jpg" alt="Tipo uno">
-					<h2>Camila Basurco</h2>
-					<p>Cargo desempeñado</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem fugit molestiae, ipsam quibusdam nobis. Fugiat consequuntur, explicabo dolorum ab odio illum!</p>
+			<div id="Equipos" class="equipo row">
+				<h2 class="text-center">Equipo</h2>
+				<div class="tipoUno col">
+					<img class="rounded-circle mx-auto d-block" src="img/fotos/equipo2.jpg" alt="Tipo uno">
+					<h2 class="text-center">Camila Basurco</h2>
+					<p class="text-center">Cargo desempeñado</p>
+					<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatem fugit molestiae, ipsam quibusdam nobis. Fugiat consequuntur, explicabo dolorum ab odio illum!</p>
 					<img src="img/iconos/redes-sociales/twitter.png" alt="Twitter">
 					<img src="img/iconos/redes-sociales/in.png" alt="Linkedin">
 					<img src="img/iconos/redes-sociales/mensaje.png" alt="Mensaje">
 				</div>
-				<div class="tipoDos">
-					<img src="img/fotos/equipo3.jpg" alt="Tipo dos">
-					<h2>Gabriella Bertocci</h2>
-					<p>CArgo desempeñado</p>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo culpa amet ipsam neque excepturi mollitia ad architecto blanditiis! Necessitatibus laudantium quis sit dolorum?</p>
+				<div class="tipoDos col">
+					<img class="rounded-circle mx-auto d-block" src="img/fotos/equipo3.jpg" alt="Tipo dos">
+					<h2 class="text-center">Gabriella Bertocci</h2>
+					<p class="text-center">CArgo desempeñado</p>
+					<p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo culpa amet ipsam neque excepturi mollitia ad architecto blanditiis! Necessitatibus laudantium quis sit dolorum?</p>
 					<img src="img/iconos/redes-sociales/twitter.png" alt="Twitter">
 					<img src="img/iconos/redes-sociales/in.png" alt="Linkedin">
 					<img src="img/iconos/redes-sociales/mensaje.png" alt="Mensaje">
 				</div>
 			</div>
 													<!-- Revisar lo que escribi aqui -->
-			<div class="blog">
-				<img src="img/fondo2.jpg" alt="Fondo dos">
-				<h2>Blog</h2>
-				<img src="img/iconos/slider/ecomunidad-15.png" alt="Izquierda">
-
-				<img src="img/fotos/img-0400.JPG" alt="Foto">
-				<h1>Título Post</h1>
-				<h2>01.Enero.2015</h2>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis hic qui sapiente tempora unde dolor eligendi dolorum cum beatae ex.</p>
-
-				<img src="img/fotos/img-9246.jpg" alt="Foto">
-				<h1>Título Post 2</h1>
-				<h2>31.Diciembre.2014</h2>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis hic qui sapiente tempora unde dolor eligendi dolorum cum beatae ex.</p>
-
-				<img src="img/fotos/img-0400.JPG" alt="Foto">
-				<h1>Título Post 3</h1>
-				<h2>30.Diciembre.2014</h2>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis hic qui sapiente tempora unde dolor eligendi dolorum cum beatae ex.</p>
-				<img src="img/iconos/slider/ecomunidad-16.png" alt="Derecha">
-			</div>
+			<div id="Blogs" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#Blogs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#Blogs" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#Blogs" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+					<img src="img/fondo2.jpg" class="d-block w-100" alt="Fondo dos">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>First slide label</h5>
+						<p>Some representative placeholder content for the first slide.</p>
+					</div>
+					</div>
+					<div class="carousel-item">
+					<img src="img/fotos/img-9246.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Second slide label</h5>
+						<p>Some representative placeholder content for the second slide.</p>
+					</div>
+					</div>
+					<div class="carousel-item">
+					<img src="img/fotos/img-0400.JPG" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Third slide label</h5>
+						<p>Some representative placeholder content for the third slide.</p>
+					</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#Blogs" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#Blogs" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+				</div>
+			<!-- <div id="carouselExampleControls" class="blog carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<img src="img/fondo2.jpg" alt="Fondo dos">
+					<h2>Blog</h2>
+					<img src="img/iconos/slider/ecomunidad-15.png" alt="Izquierda">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/fotos/img-0400.JPG" alt="Foto">
+						<h1>Título Post</h1>
+						<h2>01.Enero.2015</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis hic qui sapiente tempora unde dolor eligendi dolorum cum beatae ex.</p>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/fotos/img-9246.jpg" alt="Foto">
+						<h1>Título Post 2</h1>
+						<h2>31.Diciembre.2014</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis hic qui sapiente tempora unde dolor eligendi dolorum cum beatae ex.</p>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/fotos/img-0400.JPG" alt="Foto">
+						<h1>Título Post 3</h1>
+						<h2>30.Diciembre.2014</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis hic qui sapiente tempora unde dolor eligendi dolorum cum beatae ex.</p>
+					</div>
+					<img src="img/iconos/slider/ecomunidad-16.png" alt="Derecha">
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+			</div> -->
 
 													<!-- div de colo gray -->
-			<div class="siguenos">
-				<div class="facebook">
-					<h1>Facebook</h1>
-					<img src="img/facebook.png" alt="Facebook">
+			<div id="Siguenos" class="siguenos row bg-black p-3 m-3">
+				<div class="facebook col border border-1 border-white">
+					<h1 class="text-white">Facebook</h1>
+					<img class="icono float-end" src="img/facebook.png" alt="Facebook">
 				</div>
-				<div class="twitter">
-					<h1>Twitter</h1>
-					<img src="img/twitter.png" alt="Twitter">
+				<div class="twitter col border border-1 border-white">
+					<h1 class="text-white">Twitter</h1>
+					<img class="icono float-end" src="img/twitter.png" alt="Twitter">
 				</div>
-				<div class="linkedin">
-					<h1>LinkedIn</h1>
-					<img src="img/in.png" alt="Linkein">
+				<div class="linkedin col border border-1 border-white">
+					<h1 class="text-white">LinkedIn</h1>
+					<img class="icono float-end" src="img/in.png" alt="Linkein">
 				</div>
-				<div class="email">
-					<h1>E-mail</h1>
-					<img src="img/email.png" alt="email">
+				<div class="email col border border-1 border-white">
+					<h1 class="text-white">E-mail</h1>
+					<img class="icono2 float-end" src="img/email.png" alt="email">
 				</div>
 			</div>
-			<div class="footer">
-				<div class="textIzquierda">
-					<p>Proyecto desarrollado por</p>
-					<p>Laboratoria.la</p>
+			<div class="footer row">
+				<div class="textIzquierda col">
+					<p class="text-start">Proyecto desarrollado por</p>
+					<p class="text-start text-yellow">Laboratoria.la</p>
 				</div>
-				<div class="textDerecha">
-					<p>Ecomunidad Sostenible</p>
-					<p>hola@ecomunidad.com.pe</p>
-					<p>51 998 887 776</p>
+				<div class="textDerecha col">
+					<p class="text-end">Ecomunidad Sostenible</p>
+					<p class="text-end">hola@ecomunidad.com.pe</p>
+					<p class="text-end">51 998 887 776</p>
 				</div>
 			</div>
 		</div>
