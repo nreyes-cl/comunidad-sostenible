@@ -1,8 +1,111 @@
+*{
+    outline: 1px dotted red;
+}
+
+.logo{
+    width:9rem;
+    height:8rem;
+    margin-left: 8rem;
+}
+
+.barra{
+    width:20rem;
+    /* margin-right: 8rem; */
+    /* padding-right:8rem; */
+    margin-left: -20rem;
+}
+
+.objetfitcover > img{
+	width: 81rem;
+	height: 30rem;
+	object-fit: cover;
+}
+
+.textHeader{
+    margin: 0rem 0rem 5rem 0rem;
+    padding: 1rem 15rem 1rem 15rem;
+}
+
 .icono{
-    width:45px;
-    height:45px;
+    width:2.813rem;
+    height:2.813rem;
 }
 .icono2{
-    width:45px;
-    height:35px;
+    width:2.813rem;
+    height:2.188rem;
+}
+
+.textIzquierda{
+    padding-left: 8rem;
+}
+
+.textDerecha{
+    padding-right: 8rem;
+}
+
+.box{
+    width:7.5rem;
+    height:10rem;
+}
+
+.metodologia{
+    width: 100%;
+}
+
+    .photoMetodologia{
+        width: 39rem;
+        height: 30rem;
+    }
+    .bgGreen{
+        width: 39rem;
+        height: 30rem;
+        background-image: url("../img/fondo.jpg");
+    }
+        .iconMetodologia{
+            padding:5rem 0rem 2rem 18rem;
+        }
+.servicios{
+    margin: 5rem 0rem 5rem 0rem; 
+    /* padding: 5rem 5rem 5rem 5rem; */
+    margin: 5rem 5rem 5rem 5rem;
+}
+
+
+
+.textServicio{
+    padding: 1rem 4rem 2rem 4rem;
+}
+
+.img-photo{
+    width: 35rem;
+    height: 25rem;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 0rem 5rem;
+}
+
+.proyectos{
+   margin: 5rem 0rem 5rem 0rem; 
+   padding: 5rem 0rem 5rem 0rem;
+}
+
+.contProyect{
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.textProyect{
+    padding: 1rem 10rem 1rem 0rem;
+}
+
+.textEquipo{
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.facebook, .twitter, .google, .linkedin, .email{
+    height:15rem;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+#Siguenos{
+    margin: 0rem 0rem 1rem 0rem;
+    padding: 5rem 7rem 10rem 7rem;
 }
