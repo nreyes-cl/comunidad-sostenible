@@ -43,6 +43,10 @@
     height:10rem;
 }
 
+.metodologia{
+    --bs-gutter-x: 0;
+}
+
     .photoMetodologia{
         width: 39rem;
         height: 30rem;
